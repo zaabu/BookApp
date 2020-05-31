@@ -1,0 +1,65 @@
+.error {
+  color: #9f3a38;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ui.inverted.menu .header.item  {
+  
+  margin-right: 19% !important;
+
+}
+
+.book-poster {
+  width: 260px;
+  height: 312px;
+}
+
+#okta-sign-in.auth-container .okta-sign-in-header {
+  border-bottom-color: #ddd;
+  background: #007dc1;
+}
+
+#okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
+  font-weight: 600;
+  color: #fff !important;
+  margin-top: -19%;
+  position: absolute;
+  z-index: 1000;
+  margin-left: 34%;
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+  background-color: #2185d0;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+  width: 160px;
+}
+
+#title{
+  border: 1px solid #2185d0;
+}
+#author{
+  border: 1px solid #2185d0;
+}
+#isbn{
+  border: 1px solid #2185d0;
+}
+#image{
+  border: 1px solid #2185d0;
+}
+
+
