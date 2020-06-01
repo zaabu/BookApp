@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "5ed430581d20173b38570b89"
+  },
+  "title": "The Avatar",
+  "author": "James Cameron",
+  "isbn": "123DFGH",
+  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/The_Promise_Hardcover_Collection.jpg/220px-The_Promise_Hardcover_Collection.jpg",
+  "createdAt": {
+    "$date": "2020-05-31T22:31:52.832Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-31T22:40:47.661Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed430ae1d20173b38570b8a"
+  },
+  "title": "The Hobbit",
+  "author": "JRR Tolkien",
+  "isbn": "123DFGH345",
+  "image": "https://images.penguinrandomhouse.com/cover/9780345445605",
+  "createdAt": {
+    "$date": "2020-05-31T22:33:18.738Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-31T22:33:18.738Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed4311d1d20173b38570b8b"
+  },
+  "title": "Harry Porter: Edition 1",
+  "author": "J.K Rowling",
+  "isbn": "123DFGH348",
+  "image": "https://www.cheapdigitalbook.com/pimages/dc07d345cb9343cfbf316b5c2b3d8dd1.jpg",
+  "createdAt": {
+    "$date": "2020-05-31T22:35:09.150Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-31T22:47:39.139Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ed431931d20173b38570b8c"
+  },
+  "title": "Poor Dad, Rich Dad",
+  "author": "Robert Kiyosaki",
+  "isbn": "123DFGH348",
+  "image": "https://images-na.ssl-images-amazon.com/images/I/51FhclQC7EL._SX331_BO1,204,203,200_.jpg",
+  "createdAt": {
+    "$date": "2020-05-31T22:37:07.484Z"
+  },
+  "updatedAt": {
+    "$date": "2020-05-31T22:37:07.484Z"
+  },
+  "__v": 0
+}]

@@ -25,7 +25,7 @@ export default function BookFormPage({ match }) {
             `http://localhost:3030/books/${_id}`,
           );
           dispatch({
-            type: 'FETCH_CONTACT',
+            type: 'FETCH_BOOK',
             payload: response.data,
           });
           setLoading(false);

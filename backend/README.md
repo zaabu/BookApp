@@ -28,6 +28,7 @@ Getting up and running is as easy as 1, 2, 3.
 
 Simply run `npm test` and all your tests in the `test/` directory will be run.
 
-## Help
+## Sample data
 
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+Create a database named booksdb. Install MongoDB Compass and follow this guide https://intercom.help/mongodb-compass/en/articles/1837498-import-documents-into-collection-from-a-json-or-csv-file to import the sample data contained in a file named booksdb.json located at the project root folder. 
+

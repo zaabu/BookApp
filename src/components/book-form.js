@@ -18,7 +18,7 @@ export default function BookForm({ book }) {
     try {
       const response = await axios.post('http://localhost:3030/books', data);
       dispatch({
-        type: 'CREATE_CONTACT',
+        type: 'CREATE_BOOK',
         payload: response.data,
       });
       setRedirect(true);
@@ -34,7 +34,7 @@ export default function BookForm({ book }) {
         data,
       );
       dispatch({
-        type: 'UPDATE_CONTACT',
+        type: 'UPDATE_BOOK',
         payload: response.data,
       });
       setRedirect(true);

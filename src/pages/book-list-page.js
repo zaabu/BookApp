@@ -12,7 +12,7 @@ export default function BookListPage() {
       try {
         const response = await axios.get('http://localhost:3030/books');
         dispatch({
-          type: 'FETCH_CONTACTS',
+          type: 'FETCH_BOOKS',
           payload: response.data.data || response.data, // in case pagination is disabled
         });
       } catch (error) {

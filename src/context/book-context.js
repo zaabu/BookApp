@@ -10,7 +10,7 @@ const initialState = {
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'FETCH_CONTACTS': {
+    case 'FETCH_BOOKS': {
       return {
         ...state,
         books: action.payload,
@@ -23,7 +23,7 @@ function reducer(state, action) {
         message: action.payload,
       };
     }
-    case 'CREATE_CONTACT': {
+    case 'CREATE_BOOK': {
       return {
         ...state,
         books: [...state.books, action.payload],
@@ -34,14 +34,14 @@ function reducer(state, action) {
         },
       };
     }
-    case 'FETCH_CONTACT': {
+    case 'FETCH_BOOK': {
       return {
         ...state,
         book: action.payload,
         message: {},
       };
     }
-    case 'UPDATE_CONTACT': {
+    case 'UPDATE_BOOK': {
       const book = action.payload;
       return {
         ...state,
@@ -51,19 +51,19 @@ function reducer(state, action) {
         message: {
           type: 'success',
           title: 'Update Successful',
-          content: `Book "${book.email}" has been updated!`,
+          content: `Book "${book.title}" has been updated!`,
         },
       };
     }
-    case 'DELETE_CONTACT': {
-      const { _id, email } = action.payload;
+    case 'DELETE_BOOK': {
+      const { _id } = action.payload;
       return {
         ...state,
         books: state.books.filter(item => item._id !== _id),
         message: {
           type: 'success',
           title: 'Delete Successful',
-          content: `Book "${email}" has been deleted!`,
+          content: `Book has been deleted!`,
         },
       };
     }

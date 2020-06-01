@@ -17,7 +17,7 @@ export default function BookCard({ book }) {
         `http://localhost:3030/books/${id}`,
       );
       dispatch({
-        type: 'DELETE_CONTACT',
+        type: 'DELETE_BOOK',
         payload: response.data,
       });
     } catch (error) {
