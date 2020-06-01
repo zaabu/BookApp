@@ -8,6 +8,7 @@
 * [Yarn](https://yarnpkg.com/en/) package manager
 
 
+
 ## Installation Steps
 
 1. Clone repo
@@ -17,7 +18,12 @@
 5. Ensure MongoDB is running
 6. From the `backend` directory run `yarn start` — this starts the Feathers API server
 7. From the project root run `yarn start` — this starts the `create-react-app` server
-8. Your default web browser will be launched automatically with the URL [http://localhost:3000/](http://localhost:3000/)
+8. Your default web browser will be launched automatically with the URL [http://localhost:8082/](http://localhost:8082/)
+
+
+## Authentication
+
+This app uses Okta for authentication. Check out this [link] (https://developer.okta.com/code/react/okta_react/) to learn about Okta and integrating it with React.
 
 
 
