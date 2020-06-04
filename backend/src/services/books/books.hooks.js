@@ -1,18 +1,23 @@
+/* eslint-disable linebreak-style */
+const { authenticate } = require('@feathersjs/authentication').hooks;
 
+const processBook = require('../../hooks/process-book');
+
+const populateUser = require('../../hooks/populate-user');
 
 module.exports = {
   before: {
-    all: [],
+    all: [authenticate('jwt')],
     find: [],
     get: [],
-    create: [],
+    create: [processBook()],
     update: [],
     patch: [],
     remove: []
   },
 
   after: {
-    all: [],
+    all: [populateUser()],
     find: [],
     get: [],
     create: [],

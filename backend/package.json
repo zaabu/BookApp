@@ -26,6 +26,9 @@
     "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
+    "@feathersjs/authentication": "^4.5.3",
+    "@feathersjs/authentication-local": "^4.5.1",
+    "@feathersjs/authentication-oauth": "^4.5.1",
     "@feathersjs/configuration": "^4.4.1",
     "@feathersjs/errors": "^4.4.1",
     "@feathersjs/express": "^4.4.1",
@@ -34,8 +37,10 @@
     "@feathersjs/transport-commons": "^4.5.1",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "feathers-mongodb": "^6.1.0",
     "feathers-mongoose": "^8.1.1",
     "helmet": "^3.21.2",
+    "mongodb": "^3.5.3",
     "mongodb-core": "^3.2.7",
     "mongoose": "^5.7.13",
     "mongoose-type-email": "^1.0.12",
